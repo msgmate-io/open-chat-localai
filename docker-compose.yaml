@@ -16,5 +16,12 @@ services:
     volumes:
       - ./models:/models:cached
     command:
+    - meta-llama-3.1-8b-instruct
     - whisper-1
+    - whisper-large-q5_0
+    - whisper-small-q5_1
+    - whisper-medium-q5_0
     - phi-3.1-mini-4k-instruct
+    - tess-v2.5-phi-3-medium-128k-14b
+    - smollm-1.7b-instruct
+    - emo-2b
